@@ -107,6 +107,14 @@ h2 {
     height: auto;
 }
 
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
 .join {
     background-color: #333;
     color: #fff;
@@ -119,14 +127,6 @@ h2 {
 
 .join:hover {
     background-color: #555;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
 
 /* Style social media icons */
