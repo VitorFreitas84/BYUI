@@ -66,3 +66,86 @@ footer {
     background-color: var(--nav-hover-background-color); /* Your background color for the footer */
 }
 
+nav a {
+    text-align: center;
+    color: #fcfbfb; /* Your font color for navigation links */
+}
+
+nav a:hover {
+    background-color: black;
+    color: white; /* Your font color for navigation links on hover */
+}
+
+.home-title {
+    color: #a8ccc9; /* Your font color for the home title */
+}
+
+h4 {
+    color: white; /* Your font color for h4 elements */
+}
+
+.book, .join,
+.book:hover, .join:hover {
+    color: white; /* Your font color for book and join elements */
+}
+
+.msg h2 {
+    color: white; /* Your font color for h2 elements within the message section */
+}
+
+.msg p {
+    color: #396E94; /* Your font color for paragraph text within the message section */
+}
+
+footer {
+    color: white; /* Your font color for footer text */
+}
+
+footer a {
+    color: #396E94; /* Your font color for footer links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white; /* Your font color for footer links on hover */
+}
+/* Set the width for the logo */
+.logo {
+    width: 80px;
+}
+
+/* Set the width for all card icons */
+.icon {
+    width: 80px;
+}
+
+/* Set a responsive width for the hero image */
+#hero-img {
+    width: 100%;
+}
+/* Remove underlines from navigation links */
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+/* Remove underlines from .book and .join links */
+.book, .join {
+    text-decoration: none;
+}
+
+/* Remove underlines from footer links */
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline to footer links on hover */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Add a larger font size to footer text */
+footer p {
+    font-size: 1.2em;
+}
