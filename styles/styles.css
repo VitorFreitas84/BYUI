@@ -1,5 +1,5 @@
 
-/* if you are using any Google fonts change the font names below to your fonts. 
+/* if you are using any Google fonts change the font names below to your fonts.
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
@@ -16,7 +16,7 @@ Fonts are separated by a & */
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #a8ccc9;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -31,7 +31,7 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1600px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -109,8 +109,8 @@ nav  {
 }
 nav a {
   padding:1em;
-  min-width: 350px;
-  text-decoration: black;
+  min-width: 120px;
+  text-decoration: none;
   padding: 10px;
 }
 nav a:link, nav a:visited {
