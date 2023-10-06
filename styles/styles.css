@@ -1,0 +1,91 @@
+/* Set max-width and center the content */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Center various elements */
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* Set background height for the container */
+#background {
+    height: 725px;
+}
+
+/* Set background colors */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book, .join,
+.book:hover, .join:hover {
+    background-color: /* Your chosen color */;
+}
+
+#background {
+    background-color: /* Your chosen color */;
+}
+
+.msg {
+    background-color: /* Your chosen color */;
+}
+
+footer {
+    background-color: /* Your chosen color */;
+}
+
+/* Set text colors */
+nav a,
+nav a:hover,
+.home-title,
+h4,
+.book, .join,
+.book:hover, .join:hover,
+.msg h2,
+.msg p,
+footer,
+footer a,
+footer a:hover {
+    color: /* Your chosen text color */;
+}
+
+/* Set widths */
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove underlines from links */
+nav a,
+.book, .join,
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline on hover for footer links */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Increase font size for footer text */
+footer p {
+    font-size: 1.2em;
+}
