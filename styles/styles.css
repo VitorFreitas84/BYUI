@@ -1,151 +1,126 @@
-/* Import Google Fonts and define custom fonts and colors */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+/* @import for your chosen fonts (place this at the top of your CSS file) */
+@import url('https://fonts.googleapis.com/css2?family=Your+Body+Font&family=Your+Headline+Font&display=swap');
 
-:root {
-    --primary-color: #75b9be;
-    --secondary-color: #a8ccc9;
-    --accent1-color: #b3d6c6;
-    --accent2-color: white;
-    --heading-font: "Rock Salt"; /* Corrected the font name */
-    --paragraph-font: 'Roboto', Helvetica, sans-serif;
-
-    --headline-color-on-white: #a8ccc9;
-    --headline-color-on-color: white;
-    --paragraph-color-on-white: #396E94;
-    --paragraph-color-on-color: white;
-    --paragraph-background-color: #396E94;
-    --nav-link-color: #396E94;
-    --nav-background-color: #D4AC0D;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #396E94;
-}
-
-/* Apply styles to elements */
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-nav a,
-#hero-msg h1, #hero-msg h4,
-.button-box,
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
-
+/* Change the body font and add backup fonts */
 body {
-    background-color: #fcfbfb; /* Your background color for the body */
+    font-family: 'Your Body Font', Arial, sans-serif;
+    font-size: 22px;
 }
 
-header {
-    background-color: rgba(20, 30, 13, 0.7); /* Your background color for the header */
-}
-
-nav a:hover {
-    background-color: black; /* Your background color for hovered navigation links */
-}
-
-.book, .join,
-.book:hover, .join:hover {
-    background-color: var(--nav-background-color); /* Your background color for book and join elements */
-}
-
-#background {
-    background-color: var(--nav-background-color); /* Your background color for the background container */
-}
-
-.msg {
-    background-color: var(--paragraph-background-color); /* Your background color for the message section */
-}
-
-footer {
-    background-color: var(--nav-hover-background-color); /* Your background color for the footer */
-}
-
-nav a {
-    text-align: center;
-    color: #fcfbfb; /* Your font color for navigation links */
-}
-
-nav a:hover {
-    background-color: black;
-    color: white; /* Your font color for navigation links on hover */
-}
-
-.home-title {
-    color: #a8ccc9; /* Your font color for the home title */
-}
-
-h4 {
-    color: white; /* Your font color for h4 elements */
-}
-
-.book, .join,
-.book:hover, .join:hover {
-    color: white; /* Your font color for book and join elements */
-}
-
+/* Change the headline font and add backup fonts */
+.home-title,
 .msg h2 {
-    color: white; /* Your font color for h2 elements within the message section */
+    font-family: 'Your Headline Font', 'Backup Font 1', 'Backup Font 2', sans-serif;
+    font-size: 2em;
+}
+
+/* Adjust font sizes for specific selectors */
+.book,
+.join {
+    font-size: 18px;
 }
 
 .msg p {
-    color: #396E94; /* Your font color for paragraph text within the message section */
+    font-size: 0.8em;
+}
+
+/* Increase line height for .msg */
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5;
+}
+
+/* Reset margins and paddings */
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Add padding to selected elements */
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
+.book,
+.join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 
 footer {
-    color: white; /* Your font color for footer text */
+    padding: 25px 50px;
 }
 
-footer a {
-    color: #396E94; /* Your font color for footer links */
+footer .social img {
+    padding-top: 15px;
 }
 
-footer a:hover {
-    text-decoration: underline;
-    color: white; /* Your font color for footer links on hover */
-}
-/* Set the width for the logo */
-.logo {
-    width: 80px;
+/* Add margins to selected elements */
+.home-title {
+    margin-top: 10px;
 }
 
-/* Set the width for all card icons */
-.icon {
-    width: 80px;
+.book,
+.join {
+    margin-top: 50px;
 }
 
-/* Set a responsive width for the hero image */
-#hero-img {
-    width: 100%;
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
 }
-/* Remove underlines from navigation links */
-nav a {
-    text-align: center;
-    color: #fcfbfb;
+
+footer {
+    margin-top: 200px;
+}
+
+/* Add borders, border radius, and box-sizing */
+.book,
+.join {
+    background-color: #d9c2a3;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-/* Remove underlines from .book and .join links */
-.book, .join {
-    text-decoration: none;
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
-/* Remove underlines from footer links */
-footer a {
-    text-decoration: none;
-}
-
-/* Add underline to footer links on hover */
-footer p a:hover {
-    text-decoration: underline;
-}
-
-/* Add a larger font size to footer text */
-footer p {
-    font-size: 1.2em;
+main section img {
+    box-sizing: border-box;
 }
