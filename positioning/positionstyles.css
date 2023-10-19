@@ -88,6 +88,10 @@ background-color: blue;
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
   height: 400px;
 }
 .red4 { 
@@ -113,6 +117,10 @@ background-color: blue;
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
    height: 400px;
 }
 .red5 { 
@@ -138,6 +146,7 @@ background-color: blue;
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
