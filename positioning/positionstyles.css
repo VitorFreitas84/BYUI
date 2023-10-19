@@ -209,7 +209,7 @@ display: block;
 .hint i {
 position: absolute;
 transform: translate(-6px, 0);
-margin-top: 16px;
+margin-top: 50px;
 right: 10px;
 top: -3px;
 }
@@ -236,4 +236,8 @@ transform: translate(2px, 0) rotate(-45deg);
 .hint a {
 position: relative;
 z-index: 1;
+}
+.element {
+  position: relative; /* or position: absolute; */
+  top: -50px;
 }
