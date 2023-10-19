@@ -33,7 +33,7 @@ background-color: blue;
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   justify-items: center;
   gap: 20px;
 }
@@ -61,7 +61,7 @@ background-color: blue;
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 3fr;
   justify-items: center;
   gap: 20px;
 }
@@ -89,7 +89,7 @@ background-color: blue;
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 4fr;
   justify-items: center;
   gap: 20px;
   height: 400px;
@@ -118,7 +118,7 @@ background-color: blue;
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5fr 5fr;
   justify-items: center;
   gap: 20px;
    height: 400px;
@@ -148,7 +148,7 @@ background-color: blue;
   /* This is the parent of the activity 6 boxes. */
   
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 6fr 6fr;
   justify-items: center;
   gap: 20px;
 }
