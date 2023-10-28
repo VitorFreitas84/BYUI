@@ -173,3 +173,14 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+}
+
+.social {
+    display: flex;
+    gap: 10px; /* Spacing between social icons */
+}
