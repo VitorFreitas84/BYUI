@@ -85,7 +85,7 @@ footer a {
 }
 footer a:hover {
     background-color: #8ECAE6;
-    color: black;
+    color: whitesmoke;
     text-decoration: underline;
 }
 .icon {
@@ -210,7 +210,7 @@ main {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #82896e;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
