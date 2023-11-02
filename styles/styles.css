@@ -37,12 +37,12 @@ header {
 }
 
 nav a:hover {
-    background-color: gold;
+    background-color: #ffffff;
     color: black;
 
 }
 .book, .join {
-    background-color: gold;
+    background-color: rgba(255, 215, 0, 0.9);
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -51,7 +51,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: gold;
+    background-color: #113f96;
 }
 #background {
     background-color: #8ECAE6;
@@ -59,7 +59,7 @@ nav a:hover {
     grid-row: 4/9;
 }
 .msg {
-    background-color: #072A6C;
+    background-color: rgba(26, 83, 191, 0.55);
     color: white;
     line-height: 1.5em;
     padding: 35px;
@@ -68,10 +68,10 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .home-grid h2 {
-    color: gold;
+    color: #e2e213;
 }
 footer {
-    background-color: #072A6C;
+    background-color: rgba(9, 78, 207, 0.68);
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
@@ -84,8 +84,8 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #8ECAE6;
-    color: whitesmoke;
+    background-color: #4fb9eb;
+    color: black;
     text-decoration: underline;
 }
 .icon {
@@ -210,7 +210,7 @@ main {
     }
     .home-title {
         font-size: 25px;
-        color: #82896e;
+        color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
