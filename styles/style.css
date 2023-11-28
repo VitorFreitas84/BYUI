@@ -1,40 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-header {
-    background-color: #E3EBFA;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
 nav a {
     text-align: center;
-    color: #254756;
+    color: white;
+    text-align: center;
     text-decoration: none;
     padding: 35px;
 }
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.botton-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #072A6C;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 nav a:hover {
-    background-color: #254756;
-    color: white;
+    background-color: #8ECAE6;
+    color: black;
 
 }
-nav {
-    display: flex;
-    justify-content: space-around;
+.book, .join {
+    background-color: #8ECAE6;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.logo {
-    width: 80px;
+.book:hover, .join:hover {
+    background-color: #072A6C;
 }
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+#background {
+    background-color: #8ECAE6;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.msg {
+    background-color: #072A6C;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.home-grid h2 {
+    color: #072A6C;
 }
 footer {
-    background-color: #E3EBFA;
-    color: #254756;
+    background-color: #072A6C;
+    color: white;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -42,165 +80,263 @@ footer {
     align-items: center;
 }
 footer a {
-    color: #254756;
+    color: white;
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #254756;
-    color: white;
+    background-color: #8ECAE6;
+    color: black;
     text-decoration: underline;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: white;
+}
+.msg h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 footer .social img {
     padding-top: 15px;
 }
-
-#event-title h1 {
-    font-family: pacifico;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #072A6C;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px lightblue;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+main section img {
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h4 {
+    color: white;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
-
-
-body {
-    background-color: #FFFFFF;
-    font-family: Roboto, Helvetica, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+/*Here is the css styles for rivers page*/
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
   }
   
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #event {
-    max-width: 1200px;
+  .rivers-pics {
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  #event-title {
     text-align: center;
-    margin-bottom: 20px;
   }
-  
-  #event-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  #event-msg {
-    text-align: justify;
-    position: relative;
-  }
-
-  #event-msg h4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: #254756; /* Adjust text color as needed */
-    background-color: rgba(227, 235, 250, 0.8); /* Adjust background color and transparency as needed */
-    padding: 20px; /* Adjust padding as needed */
-    border-radius: 10px; /* Add border-radius for rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for a fanciful effect */
-    margin-top: -400px;
-    transition: transform 0.5s ease-in-out;
-    font-size: 0.8em;
-    line-height: 1.2em;
-}
-
-#event-msg h4:hover {
-    transform: translate(-50%, -50%) scale(1.2); /* Adjust the scale value as needed for zoom-in effect */
-}
-
-  
-  .botton-box {
+  .rivers-img {
     text-align: center;
-    margin-top: 20px;
   }
   
-  .book {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #3498db;
-    border-radius: 5px;
+  .rivers-pics h2 {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
   }
   
-  #event-info {
-    display: flex;
-    margin-top: 20px;
+  .rivers-img p {
+    padding-top: 15px;
+    font-size: .8em;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5em;
+  }
+/* styling for the contact form */  
+
+form {
+    /* Center the form on the page */
+    margin: 20px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
   }
   
-  #event-img-box {
-    flex: 1;
-    margin-right: 20px;
-    padding-top: 100px;
-  }
-  
-  #event-moment {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  #event-info-box {
-    flex: 2;
-  }
-  
-  #event-info-box p {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1em; /* Adjust the font size as needed */
-    line-height: 1.2em;
-    padding-top: 80px;
-  }
-  
-  #event-info-box ul {
-    list-style-type: none;
+  ul {
+    list-style: none;
     padding: 0;
+    margin: 0;
   }
   
-  #event-info-box li {
-    margin-bottom: 8px;
-    margin-bottom: 10px;
-    padding-left: 20px; /* Add some indentation for better readability */
-    position: relative;
+  form li + li {
+    margin-top: 1em;
   }
-
-  #event-info-box li::before {
-    content: '\2022'; /* Use a bullet point as a list item marker */
-    color: #3498db; /* Match the bullet color with your design */
-    font-size: 1.2em; /* Adjust the font size as needed */
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  #feedback {
+    background-color: antiquewhite;
     position: absolute;
-    left: -15px; /* Adjust the position for better alignment */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
 }
   
-  /* Responsive Design */
-  @media screen and (max-width: 600px) {
-    main {
-      padding: 10px;
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
     }
-  
-    #event {
-      width: 100%;
+    nav, footer {
+        flex-direction: column;
     }
-  
-    #event-info {
-      flex-direction: column;
+    nav a {
+        display: block;
+        padding: 15px;
     }
-  
-    #event-img-box {
-      margin-right: 0;
-      margin-bottom: 20px;
+    #hero {
+        margin-top: 0;
     }
-  }
-  
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
