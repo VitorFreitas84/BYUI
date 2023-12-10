@@ -48,8 +48,9 @@ nav a:hover {
     margin-top: 30px;
 }
 
-#hero-img {x    width: 100%; /* Alterei para ocupar 100% da largura do container */
-    max-width: 500px; /* Limite de largura para a imagem */
+#hero-img {
+    width: 100%;
+    max-width: 500px;
     border: 10px solid rgb(236, 139, 79);
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px lightblue;
@@ -61,7 +62,7 @@ nav a:hover {
     color: rgb(19, 14, 14);
     line-height: 1.5em;
     padding: 35px;
-    grid-column: span 4; /* Alterei para ocupar 4 colunas */
+    grid-column: span 4;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
