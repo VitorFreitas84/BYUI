@@ -1,11 +1,6 @@
 /* Author: VitorHugoSantosdeFreitas */
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Carter+One&family=Roboto+Slab&display=swap');
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 body {
     background-color: #ffffff;
     font-family: 'Roboto', 'Helvetica', sans-serif;
