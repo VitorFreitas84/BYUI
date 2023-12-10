@@ -11,13 +11,6 @@ body {
     text-align: center;
 }
 
-header {
-    background-color: #072A6C;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
 #logo_link {
     text-decoration: none; /* Remove underline from the link */
     display: inline-block; /* Make the link behave like a block element */
@@ -33,6 +26,12 @@ header {
 
 .logo:hover {
     transform: scale(1.1); /* Enlarge the logo on hover */
+}
+header {
+    background-color: #072A6C;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 nav {
