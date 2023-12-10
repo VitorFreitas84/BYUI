@@ -18,6 +18,23 @@ header {
     padding: 10px;
 }
 
+#logo_link {
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Make the link behave like a block element */
+}
+
+.logo {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #072A6C; /* Add a border to the logo */
+    border-radius: 5px; /* Add rounded corners to the border */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Enlarge the logo on hover */
+}
+
 nav {
     display: flex;
     justify-content: space-around;
