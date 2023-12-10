@@ -128,7 +128,7 @@ footer p {
     font-size: 1.2em;
 }
 
-.dancing {
+.radiation-dose {
     width: 80%;
     grid-column: 2/7;
     grid-row: 5/8;
@@ -136,7 +136,7 @@ footer p {
     margin: 0 auto; 
 }
 
-.dancing:hover {
+.radiation:hover {
     opacity: 0.6;
     transform: scale(1.1);
 }
