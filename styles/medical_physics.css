@@ -129,10 +129,11 @@ footer p {
 }
 
 .dancing {
-    width: 30%;
-    border: 10px solid rgb(236, 139, 79);
-    transition: transform 0.5s;
-    box-shadow: 5px 5px 10px lightblue;
+    width: 80%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #82a02d;
+    margin: 0 auto; 
 }
 
 .dancing:hover {
